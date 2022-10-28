@@ -1,0 +1,16 @@
+
+> Support Vector Machine (C: 1.0) 
+mean F1: 0.717127 | mean Precision: 0.642491 | mean Recall: 0.814065
+std F1: 0.044481 | std Precision: 0.039832 | std Recall: 0.067736
+
+              precision    recall  f1-score   support
+
+           0       0.59      0.45      0.51       339
+           1       0.59      0.72      0.65       376
+
+    accuracy                           0.59       715
+   macro avg       0.59      0.58      0.58       715
+weighted avg       0.59      0.59      0.58       715
+
+
+{'C': 1.0, 'break_ties': False, 'cache_size': 200, 'class_weight': None, 'coef0': 0.0, 'decision_function_shape': 'ovr', 'degree': 3, 'gamma': 'scale', 'kernel': 'rbf', 'max_iter': -1, 'probability': True, 'random_state': None, 'shrinking': True, 'tol': 0.001, 'verbose': False}

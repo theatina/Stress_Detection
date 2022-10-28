@@ -1,0 +1,16 @@
+
+> Random Forest 
+mean F1: 0.735408 | mean Precision: 0.724353 | mean Recall: 0.749362
+std F1: 0.039429 | std Precision: 0.043464 | std Recall: 0.067872
+
+              precision    recall  f1-score   support
+
+           0       0.76      0.65      0.70       346
+           1       0.71      0.80      0.75       369
+
+    accuracy                           0.73       715
+   macro avg       0.73      0.73      0.73       715
+weighted avg       0.73      0.73      0.73       715
+
+
+{'memory': None, 'steps': [('standardscaler', StandardScaler()), ('randomforestclassifier', RandomForestClassifier())], 'verbose': False, 'standardscaler': StandardScaler(), 'randomforestclassifier': RandomForestClassifier(), 'standardscaler__copy': True, 'standardscaler__with_mean': True, 'standardscaler__with_std': True, 'randomforestclassifier__bootstrap': True, 'randomforestclassifier__ccp_alpha': 0.0, 'randomforestclassifier__class_weight': None, 'randomforestclassifier__criterion': 'gini', 'randomforestclassifier__max_depth': None, 'randomforestclassifier__max_features': 'auto', 'randomforestclassifier__max_leaf_nodes': None, 'randomforestclassifier__max_samples': None, 'randomforestclassifier__min_impurity_decrease': 0.0, 'randomforestclassifier__min_samples_leaf': 1, 'randomforestclassifier__min_samples_split': 2, 'randomforestclassifier__min_weight_fraction_leaf': 0.0, 'randomforestclassifier__n_estimators': 100, 'randomforestclassifier__n_jobs': None, 'randomforestclassifier__oob_score': False, 'randomforestclassifier__random_state': None, 'randomforestclassifier__verbose': 0, 'randomforestclassifier__warm_start': False}

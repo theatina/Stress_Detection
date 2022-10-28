@@ -1,0 +1,16 @@
+
+> Logistic Regression (C: 5e-05)
+mean F1: 0.680813 | mean Precision: 0.516099 | mean Recall: 1.000000
+std F1: 0.003968 | std Precision: 0.004556 | std Recall: 0.000000
+
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       346
+           1       0.52      1.00      0.68       369
+
+    accuracy                           0.52       715
+   macro avg       0.26      0.50      0.34       715
+weighted avg       0.27      0.52      0.35       715
+
+
+{'C': 5e-05, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 1000, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': None, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}

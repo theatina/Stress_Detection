@@ -1,0 +1,16 @@
+
+> k Nearest Neighbor (n_neighbors:5) 
+mean F1: 0.578124 | mean Precision: 0.539937 | mean Recall: 0.624342
+std F1: 0.051011 | std Precision: 0.043377 | std Recall: 0.071470
+
+              precision    recall  f1-score   support
+
+           0       0.47      0.29      0.36       339
+           1       0.52      0.70      0.60       376
+
+    accuracy                           0.51       715
+   macro avg       0.49      0.50      0.48       715
+weighted avg       0.50      0.51      0.48       715
+
+
+{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 5, 'p': 2, 'weights': 'uniform'}

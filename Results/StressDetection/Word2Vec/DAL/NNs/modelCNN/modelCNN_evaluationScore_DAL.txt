@@ -1,0 +1,57 @@
+
+
+Test Set Classification Report
+Accuracy: 52.45%
+Loss: 0.690
+              precision    recall  f1-score   support
+
+         0.0       0.43      0.01      0.02       339
+         1.0       0.53      0.99      0.69       376
+
+    accuracy                           0.52       715
+   macro avg       0.48      0.50      0.35       715
+weighted avg       0.48      0.52      0.37       715
+
+              Not stressed  Stressed
+Not stressed             3       336
+Stressed                 4       372
+
+
+
+Train Set Classification Report
+Accuracy: 53.28%
+Loss: 0.682
+              precision    recall  f1-score   support
+
+         0.0       0.93      0.02      0.04      1350
+         1.0       0.53      1.00      0.69      1488
+
+    accuracy                           0.53      2838
+   macro avg       0.73      0.51      0.36      2838
+weighted avg       0.72      0.53      0.38      2838
+
+              Not stressed  Stressed
+Not stressed            26      1324
+Stressed                 2      1486
+
+
+
+
+CNN
+
+Training Set
+Loss:  0.682209
+Accuracy: 0.532770
+Precision: 0.528826
+Recall: 0.998656
+F1: 0.691484
+
+
+
+Test Set
+Loss:  0.690268
+Accuracy: 0.524476
+Precision: 0.525424
+Recall: 0.989362
+F1: 0.686347
+
