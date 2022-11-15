@@ -1,0 +1,2 @@
+*.ipynb linguist-language=Python
+Code/*.ipynb linguist-language=Python
